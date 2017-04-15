@@ -6,3 +6,4 @@ Here is sample node.js app. Main goal of this project to provide supportable app
 - Mongo db
 - EJS
 - EJS partials
+- Bluebird integrated
