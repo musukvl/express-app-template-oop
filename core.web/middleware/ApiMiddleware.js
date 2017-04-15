@@ -3,14 +3,12 @@ var Promise = require('bluebird');
 var co = Promise.coroutine;
 var BaseMiddleware = require("./BaseMiddleware");
 
-
     class ApiMiddleware extends BaseMiddleware {
 
     constructor(appEnv) {
         super(appEnv);
         this._logger = appEnv.logger('ApiMiddleware');
     }
-
 
     create() {
         var self = this;

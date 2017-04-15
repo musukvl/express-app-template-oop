@@ -28,8 +28,6 @@ class ApiController extends BaseController {
             return req.cookies.session;
         return this.getParam(req, "session");
     }
-
-
 }
 
 module.exports = ApiController;

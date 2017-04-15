@@ -80,9 +80,6 @@ class AppBuilder {
 
         var apiMiddleware = new ApiMiddleware(this._appEnv);
         this._app.use('/api/*', apiMiddleware.create());
-
-//        var siteUserMiddleware = new SiteUserMiddleware(this._appEnv);
-//        this._app.use('/:userId?', siteUserMiddleware.create());
     }
 
     // view engine setup

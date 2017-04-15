@@ -38,9 +38,9 @@ class ServerBuilder {
 
             self._server = http.createServer(appBuilder.app);
             self._server.listen(port);
+            self._appEnv.logger().info(`Listening port: ${port}`);
             self._server.on('error', self.onError);
             self._server.on('listening', self.onListening);
-
         })();
     }
 

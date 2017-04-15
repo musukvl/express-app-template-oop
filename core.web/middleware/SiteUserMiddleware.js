@@ -10,7 +10,6 @@ class SiteUserMiddleware extends BaseMiddleware {
         this._logger = this.appEnv.logger('SiteUserMiddleware');
     }
 
-
     create() {
         var self = this;
         return (req, res, next) => {
