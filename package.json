@@ -1,0 +1,25 @@
+{
+  "name": "everylistner",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./app.js"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.17.1",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.5.6",
+    "express": "^4.15.2",
+    "express-partials": "^0.3.0",
+    "moment": "^2.18.1",
+    "mongodb": "^2.2.25",
+    "morgan": "^1.8.1",
+    "nconf": "^0.8.4",
+    "nconfig": "0.0.6",
+    "serve-favicon": "^2.4.2",
+    "underscore": "^1.8.3",
+    "winston": "^2.3.1"
+  },
+  "devDependencies": {}
+}

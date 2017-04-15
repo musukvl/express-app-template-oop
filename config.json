@@ -1,0 +1,10 @@
+{ 
+  "app-port" : 8088,
+  "env": "dev",
+  "mongo-connection-string": "mongodb://localhost:27017/logbook-dev",
+  "mongo-log-connection-string": "mongodb://localhost:27017/logbook-dev-log",
+  "default-user": "uminoko",
+  "upload-folder": "/u",
+  "gallery-folder": "/u",
+  "loggers": ["ApiMiddleware", "SiteUserMiddleware"]
+}
